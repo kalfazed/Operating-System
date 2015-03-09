@@ -1,0 +1,753 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALT	kbd.h	12;"	d
+ASFLAGS	Makefile	/^ASFLAGS = -m32 -gdwarf-2 -Wa,-divide$/;"	m
+BACKSPACE	console.c	80;"	d	file:
+BootMessage	bootasm.S	/^BootMessage: .ascii "hello, BLCU OS, My name is ChenPeng"$/;"	l
+C	console.c	135;"	d	file:
+C	kbd.h	33;"	d
+C	kernel.asm	/^#define C(x)  ((x)-'@')  \/\/ Control-x$/;"	d
+CAPSLOCK	kbd.h	14;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -fno-pic -static -fno-builtin -fno-strict-aliasing -Wall -MD -ggdb -m32 -fno-omit-frame-pointer$/;"	m
+COM1	kernel.asm	/^#define COM1    0x3f8$/;"	d
+COM1	uart.c	6;"	d	file:
+CR0_AM	mmu.h	35;"	d
+CR0_CD	mmu.h	37;"	d
+CR0_EM	mmu.h	30;"	d
+CR0_ET	mmu.h	32;"	d
+CR0_MP	mmu.h	29;"	d
+CR0_NE	mmu.h	33;"	d
+CR0_NW	mmu.h	36;"	d
+CR0_PE	mmu.h	28;"	d
+CR0_PG	mmu.h	38;"	d
+CR0_TS	mmu.h	31;"	d
+CR0_WP	mmu.h	34;"	d
+CR4_PSE	mmu.h	40;"	d
+CRTPORT	console.c	81;"	d	file:
+CRTPORT	kernel.asm	/^#define CRTPORT 0x3d4$/;"	d
+CTL	kbd.h	11;"	d
+DEVSPACE	memlayout.h	5;"	d
+DPL_USER	mmu.h	79;"	d
+Disassembly	boot.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	kernel.asm	/^Disassembly of section .text:$/;"	l
+E0ESC	kbd.h	18;"	d
+ELF_MAGIC	elf.h	3;"	d
+ELF_PROG_FLAG_EXEC	elf.h	40;"	d
+ELF_PROG_FLAG_READ	elf.h	42;"	d
+ELF_PROG_FLAG_WRITE	elf.h	41;"	d
+ELF_PROG_LOAD	elf.h	37;"	d
+EXTMEM	memlayout.h	3;"	d
+FL_AC	mmu.h	22;"	d
+FL_AF	mmu.h	7;"	d
+FL_CF	mmu.h	5;"	d
+FL_DF	mmu.h	12;"	d
+FL_ID	mmu.h	25;"	d
+FL_IF	mmu.h	11;"	d
+FL_IOPL_0	mmu.h	15;"	d
+FL_IOPL_1	mmu.h	16;"	d
+FL_IOPL_2	mmu.h	17;"	d
+FL_IOPL_3	mmu.h	18;"	d
+FL_IOPL_MASK	mmu.h	14;"	d
+FL_NT	mmu.h	19;"	d
+FL_OF	mmu.h	13;"	d
+FL_PF	mmu.h	6;"	d
+FL_RF	mmu.h	20;"	d
+FL_SF	mmu.h	9;"	d
+FL_TF	mmu.h	10;"	d
+FL_VIF	mmu.h	23;"	d
+FL_VIP	mmu.h	24;"	d
+FL_VM	mmu.h	21;"	d
+FL_ZF	mmu.h	8;"	d
+INPUT_BUF	console.c	126;"	d	file:
+INT_DISABLED	ioapic.c	9;"	d	file:
+IOAPIC	ioapic.c	5;"	d	file:
+IO_PIC1	picirq.c	8;"	d	file:
+IO_PIC2	picirq.c	9;"	d	file:
+IRQ_COM1	traps.h	35;"	d
+IRQ_ERROR	traps.h	37;"	d
+IRQ_IDE	traps.h	36;"	d
+IRQ_KBD	traps.h	34;"	d
+IRQ_SLAVE	picirq.c	11;"	d	file:
+IRQ_SPURIOUS	traps.h	38;"	d
+IRQ_TIMER	traps.h	33;"	d
+KBDATAP	kbd.h	6;"	d
+KBSTATP	kbd.h	4;"	d
+KBS_DIB	kbd.h	5;"	d
+KERNBASE	kernel.asm	/^#define KERNBASE 0x80000000         \/\/ First kernel virtual address$/;"	d
+KERNBASE	memlayout.h	8;"	d
+KERNLINK	kernel.asm	/^#define KERNLINK (KERNBASE+EXTMEM)  \/\/ Address where kernel is linked$/;"	d
+KERNLINK	memlayout.h	9;"	d
+KEY_DEL	kbd.h	30;"	d
+KEY_DN	kbd.h	24;"	d
+KEY_END	kbd.h	22;"	d
+KEY_HOME	kbd.h	21;"	d
+KEY_INS	kbd.h	29;"	d
+KEY_LF	kbd.h	25;"	d
+KEY_PGDN	kbd.h	28;"	d
+KEY_PGUP	kbd.h	27;"	d
+KEY_RT	kbd.h	26;"	d
+KEY_UP	kbd.h	23;"	d
+KSTACKSIZE	param.h	2;"	d
+LD	Makefile	/^LD = ld$/;"	m
+LDFILE	Makefile	/^LDFILE = boot.ld$/;"	m
+LOGSIZE	param.h	11;"	d
+MAXARG	param.h	10;"	d
+NBUF	param.h	6;"	d
+NCPU	param.h	3;"	d
+NDEV	param.h	8;"	d
+NELEM	defs.h	40;"	d
+NFILE	param.h	5;"	d
+NINODE	param.h	7;"	d
+NO	kbd.h	8;"	d
+NOFILE	param.h	4;"	d
+NPDENTRIES	mmu.h	121;"	d
+NPROC	param.h	1;"	d
+NPTENTRIES	mmu.h	122;"	d
+NSEGS	cpu.h	1;"	d
+NUMLOCK	kbd.h	15;"	d
+OBJCOPY	Makefile	/^OBJCOPY = objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJS	Makefile	/^OBJS = \\$/;"	m
+P2V	memlayout.h	19;"	d
+P2V_WO	memlayout.h	22;"	d
+PDX	mmu.h	112;"	d
+PDXSHIFT	mmu.h	127;"	d
+PGADDR	mmu.h	118;"	d
+PGROUNDDOWN	mmu.h	130;"	d
+PGROUNDUP	mmu.h	129;"	d
+PGSHIFT	mmu.h	125;"	d
+PGSIZE	mmu.h	123;"	d
+PHYSTOP	memlayout.h	4;"	d
+PTE_A	mmu.h	138;"	d
+PTE_ADDR	mmu.h	144;"	d
+PTE_D	mmu.h	139;"	d
+PTE_FLAGS	mmu.h	145;"	d
+PTE_MBZ	mmu.h	141;"	d
+PTE_P	mmu.h	133;"	d
+PTE_PCD	mmu.h	137;"	d
+PTE_PS	mmu.h	140;"	d
+PTE_PWT	mmu.h	136;"	d
+PTE_U	mmu.h	135;"	d
+PTE_W	mmu.h	134;"	d
+PTX	mmu.h	115;"	d
+PTXSHIFT	mmu.h	126;"	d
+QEMU	Makefile	/^QEMU = qemu$/;"	m
+REG_TABLE	ioapic.c	7;"	d	file:
+REG_VER	ioapic.c	6;"	d	file:
+ROOTDEV	param.h	9;"	d
+SCROLLLOCK	kbd.h	16;"	d
+SECTSIZE	bootmain.c	14;"	d	file:
+SEG	mmu.h	69;"	d
+SEG16	mmu.h	73;"	d
+SEG_ASM	asm.h	11;"	d
+SEG_KCODE	mmu.h	42;"	d
+SEG_KCPU	mmu.h	44;"	d
+SEG_KDATA	mmu.h	43;"	d
+SEG_NULLASM	asm.h	5;"	d
+SEG_TSS	mmu.h	47;"	d
+SEG_UCODE	mmu.h	45;"	d
+SEG_UDATA	mmu.h	46;"	d
+SETGATE	mmu.h	213;"	d
+SHIFT	kbd.h	10;"	d
+STA_A	asm.h	21;"	d
+STA_A	mmu.h	87;"	d
+STA_C	asm.h	18;"	d
+STA_C	mmu.h	84;"	d
+STA_E	asm.h	17;"	d
+STA_E	mmu.h	83;"	d
+STA_R	asm.h	20;"	d
+STA_R	mmu.h	86;"	d
+STA_W	asm.h	19;"	d
+STA_W	mmu.h	85;"	d
+STA_X	asm.h	16;"	d
+STA_X	mmu.h	82;"	d
+STS_CG16	mmu.h	93;"	d
+STS_CG32	mmu.h	99;"	d
+STS_IG16	mmu.h	95;"	d
+STS_IG32	mmu.h	100;"	d
+STS_LDT	mmu.h	91;"	d
+STS_T16A	mmu.h	90;"	d
+STS_T16B	mmu.h	92;"	d
+STS_T32A	mmu.h	97;"	d
+STS_T32B	mmu.h	98;"	d
+STS_TG	mmu.h	94;"	d
+STS_TG16	mmu.h	96;"	d
+STS_TG32	mmu.h	101;"	d
+TERMINAL	Makefile	/^TERMINAL        :=gnome-terminal$/;"	m
+T_ALIGN	traps.h	22;"	d
+T_BOUND	traps.h	10;"	d
+T_BRKPT	traps.h	8;"	d
+T_DBLFLT	traps.h	13;"	d
+T_DEBUG	traps.h	6;"	d
+T_DEFAULT	traps.h	29;"	d
+T_DEVICE	traps.h	12;"	d
+T_DIVIDE	traps.h	5;"	d
+T_FPERR	traps.h	21;"	d
+T_GPFLT	traps.h	18;"	d
+T_ILLOP	traps.h	11;"	d
+T_IRQ0	traps.h	31;"	d
+T_MCHK	traps.h	23;"	d
+T_NMI	traps.h	7;"	d
+T_OFLOW	traps.h	9;"	d
+T_PGFLT	traps.h	19;"	d
+T_SEGNP	traps.h	16;"	d
+T_SIMDERR	traps.h	24;"	d
+T_STACK	traps.h	17;"	d
+T_SYSCALL	traps.h	28;"	d
+T_TSS	traps.h	15;"	d
+V2P	memlayout.h	18;"	d
+V2P_WO	memlayout.h	21;"	d
+_start	entry.S	/^_start = V2P_WO(entry)$/;"	d
+a	kernel.asm	/^  a = (char*)PGROUNDDOWN((uint)va);                        \/\/va所在的第一页地址$/;"	d
+align	elf.h	/^  uint align;$/;"	m	struct:proghdr
+alltraps	kernel.asm	/^alltraps:$/;"	l
+alltraps	trapasm.S	/^alltraps:$/;"	l
+argp	kernel.asm	/^  argp = (uint*)(void*)(&fmt + 1);$/;"	d
+args	mmu.h	/^  uint args : 5;        \/\/ # args, 0 for interrupt\/trap gates$/;"	m	struct:gatedesc
+avl	mmu.h	/^  uint avl : 1;        \/\/ Unused (available for software use)$/;"	m	struct:segdesc
+base_15_0	mmu.h	/^  uint base_15_0 : 16; \/\/ Low bits of segment base address$/;"	m	struct:segdesc
+base_23_16	mmu.h	/^  uint base_23_16 : 8; \/\/ Middle bits of segment base address$/;"	m	struct:segdesc
+base_31_24	mmu.h	/^  uint base_31_24 : 8; \/\/ High bits of segment base address$/;"	m	struct:segdesc
+bootmain	bootmain.c	/^bootmain(void)$/;"	f
+buf	console.c	/^  char buf[INPUT_BUF];$/;"	m	struct:__anon2	file:
+c	kernel.asm	/^        c = (c == '\\r') ? '\\n' : c;$/;"	d
+c	kernel.asm	/^    c = fmt[++i] & 0xff;$/;"	d
+c	kernel.asm	/^  c = &cpus[0]; $/;"	d
+c	kernel.asm	/^  c = charcode[shift & (CTL | SHIFT)][data];$/;"	d
+cgaputc	console.c	/^cgaputc(int c)$/;"	f	file:
+cli	x86.h	/^cli(void)$/;"	f
+consoleinit	console.c	/^void consoleinit(void)$/;"	f
+consoleintr	console.c	/^consoleintr(int (*getc)(void))$/;"	f
+consputc	console.c	/^consputc(int c)$/;"	f
+cprintf	console.c	/^cprintf(char *fmt, ...)$/;"	f
+cpu	cpu.h	/^    struct cpu *cpu;$/;"	m	struct:cpu	typeref:struct:cpu::cpu
+cpu	cpu.h	/^struct cpu{$/;"	s
+cpu	kernel.asm	/^  cpu = c;$/;"	d
+cpus	vm.c	/^struct cpu cpus[1];$/;"	v	typeref:struct:cpu
+cr3	mmu.h	/^  void *cr3;         \/\/ Page directory base$/;"	m	struct:taskstate
+crt	console.c	/^static ushort *crt = (ushort*)P2V(0xb8000);  \/\/ CGA memory$/;"	v	file:
+cs	mmu.h	/^  uint cs : 16;         \/\/ code segment selector$/;"	m	struct:gatedesc
+cs	mmu.h	/^  ushort cs;$/;"	m	struct:taskstate
+cs	x86.h	/^  ushort cs;$/;"	m	struct:trapframe
+ctlmap	kbd.h	/^static uchar ctlmap[256] =$/;"	v
+data	ioapic.c	/^  uint data;$/;"	m	struct:ioapic	file:
+data	kernel.asm	/^    data = (shift & E0ESC ? data : data & 0x7F);$/;"	d
+data	kernel.asm	/^  data = inb(KBDATAP);$/;"	d
+db	mmu.h	/^  uint db : 1;         \/\/ 0 = 16-bit segment, 1 = 32-bit segment$/;"	m	struct:segdesc
+default	kernel.asm	/^    default:$/;"	l
+dpl	mmu.h	/^  uint dpl : 2;         \/\/ descriptor(meaning new) privilege level$/;"	m	struct:gatedesc
+dpl	mmu.h	/^  uint dpl : 2;        \/\/ Descriptor Privilege Level$/;"	m	struct:segdesc
+ds	mmu.h	/^  ushort ds;$/;"	m	struct:taskstate
+ds	x86.h	/^  ushort ds;$/;"	m	struct:trapframe
+e	console.c	/^  uint e;  \/\/ Edit index$/;"	m	struct:__anon2	file:
+eax	mmu.h	/^  uint eax;          \/\/ More saved state (registers)$/;"	m	struct:taskstate
+eax	x86.h	/^  uint eax;$/;"	m	struct:trapframe
+ebp	mmu.h	/^  uint *ebp;$/;"	m	struct:taskstate
+ebp	x86.h	/^  uint ebp;$/;"	m	struct:trapframe
+ebx	mmu.h	/^  uint ebx;$/;"	m	struct:taskstate
+ebx	x86.h	/^  uint ebx;$/;"	m	struct:trapframe
+ecx	mmu.h	/^  uint ecx;$/;"	m	struct:taskstate
+ecx	x86.h	/^  uint ecx;$/;"	m	struct:trapframe
+edi	mmu.h	/^  uint edi;$/;"	m	struct:taskstate
+edi	x86.h	/^  uint edi;$/;"	m	struct:trapframe
+edx	mmu.h	/^  uint edx;$/;"	m	struct:taskstate
+edx	x86.h	/^  uint edx;$/;"	m	struct:trapframe
+eflags	mmu.h	/^  uint eflags;$/;"	m	struct:taskstate
+eflags	x86.h	/^  uint eflags;$/;"	m	struct:trapframe
+ehsize	elf.h	/^  ushort ehsize;$/;"	m	struct:elfhdr
+eip	mmu.h	/^  uint *eip;         \/\/ Saved state from last task switch$/;"	m	struct:taskstate
+eip	x86.h	/^  uint eip;$/;"	m	struct:trapframe
+elf	boot.asm	/^  elf = (struct elfhdr*)0x10000;  \/\/ scratch space 暂存空间$/;"	d
+elf	elf.h	/^  uchar elf[12];$/;"	m	struct:elfhdr
+elfhdr	elf.h	/^struct elfhdr {$/;"	s
+entry	boot.asm	/^  entry = (void(*)(void))(elf->entry);$/;"	d
+entry	elf.h	/^  uint entry;$/;"	m	struct:elfhdr
+entry	entry.S	/^entry:$/;"	l
+entry	kernel.asm	/^entry:$/;"	l
+entrypgdir	main.c	/^ pde_t entrypgdir[];  \/\/ 为entry.S所提供$/;"	v
+entrypgdir	main.c	/^pde_t entrypgdir[NPDENTRIES] = {$/;"	v
+epa	boot.asm	/^  epa = pa + count;$/;"	d
+eph	boot.asm	/^  eph = ph + elf->phnum;			\/\/根据elf中的值来设置ph和eph$/;"	d
+err	x86.h	/^  uint err;$/;"	m	struct:trapframe
+es	mmu.h	/^  ushort es;         \/\/ Even more saved state (segment selectors)$/;"	m	struct:taskstate
+es	x86.h	/^  ushort es;$/;"	m	struct:trapframe
+esi	mmu.h	/^  uint esi;$/;"	m	struct:taskstate
+esi	x86.h	/^  uint esi;$/;"	m	struct:trapframe
+esp	mmu.h	/^  uint *esp;$/;"	m	struct:taskstate
+esp	x86.h	/^  uint esp;$/;"	m	struct:trapframe
+esp0	mmu.h	/^  uint esp0;         \/\/ Stack pointers and segment selectors$/;"	m	struct:taskstate
+esp1	mmu.h	/^  uint *esp1;$/;"	m	struct:taskstate
+esp2	mmu.h	/^  uint *esp2;$/;"	m	struct:taskstate
+extern	kernel.asm	/^extern char data[];  \/\/ 由kernel.ld来定义$/;"	l
+extern	kernel.asm	/^extern char end[]; \/\/ first address after kernel loaded from ELF file$/;"	l
+f	Makefile	/^	dd if=\/dev\/zero of=os.img count=10000$/;"	m
+f	Makefile	/^	dd if=bootblock of=os.img conv=notrunc    	$/;"	m
+f	Makefile	/^	dd if=kernel of=os.img seek=1 conv=notrunc	$/;"	m
+filesz	elf.h	/^  uint filesz;$/;"	m	struct:proghdr
+flags	elf.h	/^  uint flags;$/;"	m	struct:elfhdr
+flags	elf.h	/^  uint flags;$/;"	m	struct:proghdr
+freelist	kalloc.c	/^  struct run *freelist;$/;"	m	struct:__anon1	typeref:struct:__anon1::run	file:
+freerange	kalloc.c	/^void freerange(void *vstart, void *vend)$/;"	f
+fs	mmu.h	/^  ushort fs;$/;"	m	struct:taskstate
+fs	x86.h	/^  ushort fs;$/;"	m	struct:trapframe
+g	mmu.h	/^  uint g : 1;          \/\/ Granularity: limit scaled by 4K when set$/;"	m	struct:segdesc
+gatedesc	mmu.h	/^struct gatedesc {$/;"	s
+gdt	bootasm.S	/^gdt:$/;"	l
+gdt	cpu.h	/^    struct segdesc gdt[NSEGS];$/;"	m	struct:cpu	typeref:struct:cpu::segdesc
+gdtdesc	bootasm.S	/^gdtdesc:				  #此为段描述符表的地址$/;"	l
+gs	mmu.h	/^  ushort gs;$/;"	m	struct:taskstate
+gs	x86.h	/^  ushort gs;$/;"	m	struct:trapframe
+i	kernel.asm	/^  i = 0;$/;"	d
+idt	trap.c	/^struct gatedesc idt[256];$/;"	v	typeref:struct:gatedesc
+idtinit	trap.c	/^idtinit(void)$/;"	f
+inb	x86.h	/^inb(ushort port)$/;"	f
+input	console.c	/^} input;$/;"	v	typeref:struct:__anon2
+insl	x86.h	/^insl(int port, void *addr, int cnt)$/;"	f
+int	kernel.asm	/^int$/;"	l
+ioapic	ioapic.c	/^struct ioapic {$/;"	s	file:
+ioapic	ioapic.c	/^volatile struct ioapic *ioapic;$/;"	v	typeref:struct:ioapic
+ioapic	kernel.asm	/^  ioapic = (volatile struct ioapic*)IOAPIC;    \/\/IOAPIC的默认的初始地址$/;"	d
+ioapicenable	ioapic.c	/^void ioapicenable(int irq, int cpunum)$/;"	f
+ioapicinit	ioapic.c	/^void ioapicinit(void)$/;"	f
+ioapicread	ioapic.c	/^static uint ioapicread(int reg)$/;"	f	file:
+ioapicwrite	ioapic.c	/^static void ioapicwrite(int reg, uint data)$/;"	f	file:
+iomb	mmu.h	/^  ushort iomb;       \/\/ I\/O map base address$/;"	m	struct:taskstate
+irqmask	kernel.asm	/^  irqmask = mask;$/;"	d
+irqmask	picirq.c	/^static ushort irqmask = 0xFFFF & ~(1<<IRQ_SLAVE);$/;"	v	file:
+ismp	ioapic.c	/^int ismp;$/;"	v
+kalloc	kalloc.c	/^char* kalloc(void)$/;"	f
+kbdgetc	kbd.c	/^kbdgetc(void)$/;"	f
+kbdintr	kbd.c	/^kbdintr(void)$/;"	f
+kernel	kernel.asm	/^kernel:     file format elf32-i386$/;"	l
+kfree	kalloc.c	/^void kfree(char *v)$/;"	f
+kinit	kalloc.c	/^void kinit(void *vstart, void *vend)$/;"	f
+kmap	vm.c	/^static struct kmap {$/;"	s	file:
+kmap	vm.c	/^} kmap[] = {$/;"	v	typeref:struct:kmap	file:
+kmem	kalloc.c	/^} kmem;$/;"	v	typeref:struct:__anon1
+kpgdir	kernel.asm	/^  kpgdir = setupkvm();  \/\/ 设置好页表$/;"	d
+kpgdir	vm.c	/^pde_t *kpgdir;  \/\/ 被进程调度所使用(以后)$/;"	v
+kvmalloc	vm.c	/^void kvmalloc(void)$/;"	f
+last	kernel.asm	/^  last = (char*)PGROUNDDOWN(((uint)va) + size - 1);        \/\/va所在的最后一页地址$/;"	d
+lcr3	x86.h	/^lcr3(uint val) $/;"	f
+ldt	mmu.h	/^  ushort ldt;$/;"	m	struct:taskstate
+lgdt	x86.h	/^lgdt(struct segdesc *p, int size)$/;"	f
+lidt	x86.h	/^lidt(struct gatedesc *p, int size)$/;"	f
+lim_15_0	mmu.h	/^  uint lim_15_0 : 16;  \/\/ Low bits of segment limit$/;"	m	struct:segdesc
+lim_19_16	mmu.h	/^  uint lim_19_16 : 4;  \/\/ High bits of segment limit$/;"	m	struct:segdesc
+link	mmu.h	/^  uint link;         \/\/ Old ts selector$/;"	m	struct:taskstate
+loadgs	x86.h	/^loadgs(ushort v)$/;"	f
+ltr	x86.h	/^ltr(ushort sel)$/;"	f
+machine	elf.h	/^  ushort machine;$/;"	m	struct:elfhdr
+magic	elf.h	/^  uint magic;  \/\/ must equal ELF_MAGIC$/;"	m	struct:elfhdr
+main	main.c	/^main(void)$/;"	f
+mappages	vm.c	/^static int mappages(pde_t *pgdir, void *va, uint size, uint pa, int perm)$/;"	f	file:
+maxintr	kernel.asm	/^  maxintr = (ioapicread(REG_VER) >> 16) & 0xFF;$/;"	d
+memset	string.c	/^memset(void *dst, int c, uint n)$/;"	f
+memsz	elf.h	/^  uint memsz;$/;"	m	struct:proghdr
+multiboot_header	entry.S	/^multiboot_header:$/;"	l
+next	kalloc.c	/^  struct run *next;$/;"	m	struct:run	typeref:struct:run::run	file:
+normalmap	kbd.h	/^static uchar normalmap[256] =$/;"	v
+oesp	x86.h	/^  uint oesp;      \/\/ useless & ignored$/;"	m	struct:trapframe
+off	elf.h	/^  uint off;$/;"	m	struct:proghdr
+off_15_0	mmu.h	/^  uint off_15_0 : 16;   \/\/ low 16 bits of offset in segment$/;"	m	struct:gatedesc
+off_31_16	mmu.h	/^  uint off_31_16 : 16;  \/\/ high bits of offset in segment$/;"	m	struct:gatedesc
+offset	boot.asm	/^  offset = (offset \/ SECTSIZE) + 1;$/;"	d
+outb	x86.h	/^outb(ushort port, uchar data)$/;"	f
+outsl	x86.h	/^outsl(int port, const void *addr, int cnt)$/;"	f
+outw	x86.h	/^outw(ushort port, ushort data)$/;"	f
+p	kernel.asm	/^  p = (char*)PGROUNDUP((uint)vstart);$/;"	d
+p	mmu.h	/^  uint p : 1;           \/\/ Present$/;"	m	struct:gatedesc
+p	mmu.h	/^  uint p : 1;          \/\/ Present$/;"	m	struct:segdesc
+p2v	memlayout.h	/^static inline void *p2v(uint a) { return (void *) ((a) + KERNBASE); }$/;"	f
+pa	boot.asm	/^    pa = (uchar*)ph->paddr;			\/\/pa为ph的虚拟地址$/;"	d
+pad	ioapic.c	/^  uint pad[3];$/;"	m	struct:ioapic	file:
+padding1	mmu.h	/^  ushort padding1;$/;"	m	struct:taskstate
+padding1	x86.h	/^  ushort padding1;$/;"	m	struct:trapframe
+padding10	mmu.h	/^  ushort padding10;$/;"	m	struct:taskstate
+padding2	mmu.h	/^  ushort padding2;$/;"	m	struct:taskstate
+padding2	x86.h	/^  ushort padding2;$/;"	m	struct:trapframe
+padding3	mmu.h	/^  ushort padding3;$/;"	m	struct:taskstate
+padding3	x86.h	/^  ushort padding3;$/;"	m	struct:trapframe
+padding4	mmu.h	/^  ushort padding4;$/;"	m	struct:taskstate
+padding4	x86.h	/^  ushort padding4;$/;"	m	struct:trapframe
+padding5	mmu.h	/^  ushort padding5;$/;"	m	struct:taskstate
+padding5	x86.h	/^  ushort padding5;$/;"	m	struct:trapframe
+padding6	mmu.h	/^  ushort padding6;$/;"	m	struct:taskstate
+padding6	x86.h	/^  ushort padding6;$/;"	m	struct:trapframe
+padding7	mmu.h	/^  ushort padding7;$/;"	m	struct:taskstate
+padding8	mmu.h	/^  ushort padding8;$/;"	m	struct:taskstate
+padding9	mmu.h	/^  ushort padding9;$/;"	m	struct:taskstate
+paddr	elf.h	/^  uint paddr;$/;"	m	struct:proghdr
+pde	kernel.asm	/^  pde = &pgdir[PDX(va)];    \/\/根据线性地址查找其对应的页表地址$/;"	d
+pde_t	kernel.asm	/^pde_t *kpgdir;  \/\/ 被进程调度所使用(以后)$/;"	l
+pde_t	types.h	/^typedef uint pde_t;$/;"	t
+perm	vm.c	/^  int perm; \/\/特权等级$/;"	m	struct:kmap	file:
+pgtab	kernel.asm	/^    pgtab = (pte_t*)p2v(PTE_ADDR(*pde));$/;"	d
+ph	boot.asm	/^  ph = (struct proghdr*)((uchar*)elf + elf->phoff);$/;"	d
+phentsize	elf.h	/^  ushort phentsize;$/;"	m	struct:elfhdr
+phnum	elf.h	/^  ushort phnum;$/;"	m	struct:elfhdr
+phoff	elf.h	/^  uint phoff;$/;"	m	struct:elfhdr
+phys_end	vm.c	/^  uint phys_end; \/\/物理地址的结束位置$/;"	m	struct:kmap	file:
+phys_start	vm.c	/^  uint phys_start; \/\/物理地址的起始位置$/;"	m	struct:kmap	file:
+picenable	picirq.c	/^picenable(int irq)$/;"	f
+picinit	picirq.c	/^picinit(void)$/;"	f
+picsetmask	picirq.c	/^picsetmask(ushort mask)$/;"	f	file:
+pos	kernel.asm	/^  pos = inb(CRTPORT+1) << 8;$/;"	d
+printidt	trap.c	/^printidt(void)$/;"	f
+printint	console.c	/^printint(int xx, int base, int sign)$/;"	f	file:
+proghdr	elf.h	/^struct proghdr {$/;"	s
+pte_t	mmu.h	/^typedef uint pte_t;$/;"	t
+r	console.c	/^  uint r;  \/\/ Read index$/;"	m	struct:__anon2	file:
+r	kernel.asm	/^  r = (struct run*)v;$/;"	d
+r	kernel.asm	/^  r = kmem.freelist;$/;"	d
+rcr2	x86.h	/^rcr2(void)$/;"	f
+readeflags	x86.h	/^readeflags(void)$/;"	f
+readsect	bootmain.c	/^readsect(void *dst, uint offset)$/;"	f
+readseg	bootmain.c	/^readseg(uchar* pa, uint count, uint offset)$/;"	f
+reg	ioapic.c	/^  uint reg;$/;"	m	struct:ioapic	file:
+rsv1	mmu.h	/^  uint rsv1 : 1;       \/\/ Reserved$/;"	m	struct:segdesc
+rsv1	mmu.h	/^  uint rsv1 : 3;        \/\/ reserved(should be zero I guess)$/;"	m	struct:gatedesc
+run	kalloc.c	/^struct run {$/;"	s	file:
+s	kernel.asm	/^        s = "(null)";$/;"	d
+s	mmu.h	/^  uint s : 1;           \/\/ must be 0 (system)$/;"	m	struct:gatedesc
+s	mmu.h	/^  uint s : 1;          \/\/ 0 = system, 1 = application$/;"	m	struct:segdesc
+segdesc	mmu.h	/^struct segdesc {$/;"	s
+seginit	vm.c	/^void seginit(void)$/;"	f
+segshow	vm.c	/^void segshow(){$/;"	f
+setupkvm	vm.c	/^pde_t* setupkvm(void)$/;"	f
+shentsize	elf.h	/^  ushort shentsize;$/;"	m	struct:elfhdr
+shiftcode	kbd.h	/^static uchar shiftcode[256] =$/;"	v
+shiftmap	kbd.h	/^static uchar shiftmap[256] =$/;"	v
+shnum	elf.h	/^  ushort shnum;$/;"	m	struct:elfhdr
+shoff	elf.h	/^  uint shoff;$/;"	m	struct:elfhdr
+shstrndx	elf.h	/^  ushort shstrndx;$/;"	m	struct:elfhdr
+ss	mmu.h	/^  ushort ss;$/;"	m	struct:taskstate
+ss	x86.h	/^  ushort ss;$/;"	m	struct:trapframe
+ss0	mmu.h	/^  ushort ss0;        \/\/   after an increase in privilege level$/;"	m	struct:taskstate
+ss1	mmu.h	/^  ushort ss1;$/;"	m	struct:taskstate
+ss2	mmu.h	/^  ushort ss2;$/;"	m	struct:taskstate
+st	kernel.asm	/^  st = inb(KBSTATP);$/;"	d
+start	boot.asm	/^start:$/;"	l
+start	bootasm.S	/^start:$/;"	l
+start32	boot.asm	/^start32:$/;"	l
+start32	bootasm.S	/^start32:$/;"	l
+static	boot.asm	/^static inline uchar$/;"	l
+static	boot.asm	/^static inline void$/;"	l
+static	kernel.asm	/^static inline uchar$/;"	l
+static	kernel.asm	/^static inline uint v2p(void *a) { return ((uint) (a))  - KERNBASE; }$/;"	l
+static	kernel.asm	/^static inline void *p2v(uint a) { return (void *) ((a) + KERNBASE); }$/;"	l
+static	kernel.asm	/^static inline void$/;"	l
+static	kernel.asm	/^static int mappages(pde_t *pgdir, void *va, uint size, uint pa, int perm)$/;"	l
+static	kernel.asm	/^static pte_t * walkpgdir(pde_t *pgdir, const void *va, int alloc)$/;"	l
+static	kernel.asm	/^static uint ioapicread(int reg)$/;"	l
+static	kernel.asm	/^static ushort *crt = (ushort*)P2V(0xb8000);  \/\/ CGA memory$/;"	l
+static	kernel.asm	/^static ushort irqmask = 0xFFFF & ~(1<<IRQ_SLAVE);$/;"	l
+static	kernel.asm	/^static void consputc(int);$/;"	l
+static	kernel.asm	/^static void ioapicwrite(int reg, uint data)$/;"	l
+static	kernel.asm	/^static void$/;"	l
+sti	x86.h	/^sti(void)$/;"	f
+stosb	x86.h	/^stosb(void *addr, int data, int cnt)$/;"	f
+stosl	x86.h	/^stosl(void *addr, int data, int cnt)$/;"	f
+switchkvm	vm.c	/^void switchkvm(void)$/;"	f
+t	mmu.h	/^  ushort t;          \/\/ Trap on task switch$/;"	m	struct:taskstate
+taskstate	mmu.h	/^struct taskstate {$/;"	s
+togglecode	kbd.h	/^static uchar togglecode[256] =$/;"	v
+trap	trap.c	/^trap(struct trapframe *tf)$/;"	f
+trapframe	x86.h	/^struct trapframe {$/;"	s
+trapno	x86.h	/^  uint trapno;$/;"	m	struct:trapframe
+trapret	kernel.asm	/^trapret:$/;"	l
+trapret	trapasm.S	/^trapret:$/;"	l
+tvinit	trap.c	/^tvinit(void)$/;"	f
+type	elf.h	/^  uint type;$/;"	m	struct:proghdr
+type	elf.h	/^  ushort type;$/;"	m	struct:elfhdr
+type	mmu.h	/^  uint type : 4;        \/\/ type(STS_{TG,IG32,TG32})$/;"	m	struct:gatedesc
+type	mmu.h	/^  uint type : 4;       \/\/ Segment type (see STS_ constants)$/;"	m	struct:segdesc
+uartputc	uart.c	/^uartputc(int c)$/;"	f
+uchar	types.h	/^typedef unsigned char  uchar;$/;"	t
+uint	types.h	/^typedef unsigned int   uint;$/;"	t
+ushort	types.h	/^typedef unsigned short ushort;$/;"	t
+v2p	memlayout.h	/^static inline uint v2p(void *a) { return ((uint) (a))  - KERNBASE; }$/;"	f
+vaddr	elf.h	/^  uint vaddr;$/;"	m	struct:proghdr
+vector0	kernel.asm	/^vector0:$/;"	l
+vector1	kernel.asm	/^vector1:$/;"	l
+vector10	kernel.asm	/^vector10:$/;"	l
+vector100	kernel.asm	/^vector100:$/;"	l
+vector101	kernel.asm	/^vector101:$/;"	l
+vector102	kernel.asm	/^vector102:$/;"	l
+vector103	kernel.asm	/^vector103:$/;"	l
+vector104	kernel.asm	/^vector104:$/;"	l
+vector105	kernel.asm	/^vector105:$/;"	l
+vector106	kernel.asm	/^vector106:$/;"	l
+vector107	kernel.asm	/^vector107:$/;"	l
+vector108	kernel.asm	/^vector108:$/;"	l
+vector109	kernel.asm	/^vector109:$/;"	l
+vector11	kernel.asm	/^vector11:$/;"	l
+vector110	kernel.asm	/^vector110:$/;"	l
+vector111	kernel.asm	/^vector111:$/;"	l
+vector112	kernel.asm	/^vector112:$/;"	l
+vector113	kernel.asm	/^vector113:$/;"	l
+vector114	kernel.asm	/^vector114:$/;"	l
+vector115	kernel.asm	/^vector115:$/;"	l
+vector116	kernel.asm	/^vector116:$/;"	l
+vector117	kernel.asm	/^vector117:$/;"	l
+vector118	kernel.asm	/^vector118:$/;"	l
+vector119	kernel.asm	/^vector119:$/;"	l
+vector12	kernel.asm	/^vector12:$/;"	l
+vector120	kernel.asm	/^vector120:$/;"	l
+vector121	kernel.asm	/^vector121:$/;"	l
+vector122	kernel.asm	/^vector122:$/;"	l
+vector123	kernel.asm	/^vector123:$/;"	l
+vector124	kernel.asm	/^vector124:$/;"	l
+vector125	kernel.asm	/^vector125:$/;"	l
+vector126	kernel.asm	/^vector126:$/;"	l
+vector127	kernel.asm	/^vector127:$/;"	l
+vector128	kernel.asm	/^vector128:$/;"	l
+vector129	kernel.asm	/^vector129:$/;"	l
+vector13	kernel.asm	/^vector13:$/;"	l
+vector130	kernel.asm	/^vector130:$/;"	l
+vector131	kernel.asm	/^vector131:$/;"	l
+vector132	kernel.asm	/^vector132:$/;"	l
+vector133	kernel.asm	/^vector133:$/;"	l
+vector134	kernel.asm	/^vector134:$/;"	l
+vector135	kernel.asm	/^vector135:$/;"	l
+vector136	kernel.asm	/^vector136:$/;"	l
+vector137	kernel.asm	/^vector137:$/;"	l
+vector138	kernel.asm	/^vector138:$/;"	l
+vector139	kernel.asm	/^vector139:$/;"	l
+vector14	kernel.asm	/^vector14:$/;"	l
+vector140	kernel.asm	/^vector140:$/;"	l
+vector141	kernel.asm	/^vector141:$/;"	l
+vector142	kernel.asm	/^vector142:$/;"	l
+vector143	kernel.asm	/^vector143:$/;"	l
+vector144	kernel.asm	/^vector144:$/;"	l
+vector145	kernel.asm	/^vector145:$/;"	l
+vector146	kernel.asm	/^vector146:$/;"	l
+vector147	kernel.asm	/^vector147:$/;"	l
+vector148	kernel.asm	/^vector148:$/;"	l
+vector149	kernel.asm	/^vector149:$/;"	l
+vector15	kernel.asm	/^vector15:$/;"	l
+vector150	kernel.asm	/^vector150:$/;"	l
+vector151	kernel.asm	/^vector151:$/;"	l
+vector152	kernel.asm	/^vector152:$/;"	l
+vector153	kernel.asm	/^vector153:$/;"	l
+vector154	kernel.asm	/^vector154:$/;"	l
+vector155	kernel.asm	/^vector155:$/;"	l
+vector156	kernel.asm	/^vector156:$/;"	l
+vector157	kernel.asm	/^vector157:$/;"	l
+vector158	kernel.asm	/^vector158:$/;"	l
+vector159	kernel.asm	/^vector159:$/;"	l
+vector16	kernel.asm	/^vector16:$/;"	l
+vector160	kernel.asm	/^vector160:$/;"	l
+vector161	kernel.asm	/^vector161:$/;"	l
+vector162	kernel.asm	/^vector162:$/;"	l
+vector163	kernel.asm	/^vector163:$/;"	l
+vector164	kernel.asm	/^vector164:$/;"	l
+vector165	kernel.asm	/^vector165:$/;"	l
+vector166	kernel.asm	/^vector166:$/;"	l
+vector167	kernel.asm	/^vector167:$/;"	l
+vector168	kernel.asm	/^vector168:$/;"	l
+vector169	kernel.asm	/^vector169:$/;"	l
+vector17	kernel.asm	/^vector17:$/;"	l
+vector170	kernel.asm	/^vector170:$/;"	l
+vector171	kernel.asm	/^vector171:$/;"	l
+vector172	kernel.asm	/^vector172:$/;"	l
+vector173	kernel.asm	/^vector173:$/;"	l
+vector174	kernel.asm	/^vector174:$/;"	l
+vector175	kernel.asm	/^vector175:$/;"	l
+vector176	kernel.asm	/^vector176:$/;"	l
+vector177	kernel.asm	/^vector177:$/;"	l
+vector178	kernel.asm	/^vector178:$/;"	l
+vector179	kernel.asm	/^vector179:$/;"	l
+vector18	kernel.asm	/^vector18:$/;"	l
+vector180	kernel.asm	/^vector180:$/;"	l
+vector181	kernel.asm	/^vector181:$/;"	l
+vector182	kernel.asm	/^vector182:$/;"	l
+vector183	kernel.asm	/^vector183:$/;"	l
+vector184	kernel.asm	/^vector184:$/;"	l
+vector185	kernel.asm	/^vector185:$/;"	l
+vector186	kernel.asm	/^vector186:$/;"	l
+vector187	kernel.asm	/^vector187:$/;"	l
+vector188	kernel.asm	/^vector188:$/;"	l
+vector189	kernel.asm	/^vector189:$/;"	l
+vector19	kernel.asm	/^vector19:$/;"	l
+vector190	kernel.asm	/^vector190:$/;"	l
+vector191	kernel.asm	/^vector191:$/;"	l
+vector192	kernel.asm	/^vector192:$/;"	l
+vector193	kernel.asm	/^vector193:$/;"	l
+vector194	kernel.asm	/^vector194:$/;"	l
+vector195	kernel.asm	/^vector195:$/;"	l
+vector196	kernel.asm	/^vector196:$/;"	l
+vector197	kernel.asm	/^vector197:$/;"	l
+vector198	kernel.asm	/^vector198:$/;"	l
+vector199	kernel.asm	/^vector199:$/;"	l
+vector2	kernel.asm	/^vector2:$/;"	l
+vector20	kernel.asm	/^vector20:$/;"	l
+vector200	kernel.asm	/^vector200:$/;"	l
+vector201	kernel.asm	/^vector201:$/;"	l
+vector202	kernel.asm	/^vector202:$/;"	l
+vector203	kernel.asm	/^vector203:$/;"	l
+vector204	kernel.asm	/^vector204:$/;"	l
+vector205	kernel.asm	/^vector205:$/;"	l
+vector206	kernel.asm	/^vector206:$/;"	l
+vector207	kernel.asm	/^vector207:$/;"	l
+vector208	kernel.asm	/^vector208:$/;"	l
+vector209	kernel.asm	/^vector209:$/;"	l
+vector21	kernel.asm	/^vector21:$/;"	l
+vector210	kernel.asm	/^vector210:$/;"	l
+vector211	kernel.asm	/^vector211:$/;"	l
+vector212	kernel.asm	/^vector212:$/;"	l
+vector213	kernel.asm	/^vector213:$/;"	l
+vector214	kernel.asm	/^vector214:$/;"	l
+vector215	kernel.asm	/^vector215:$/;"	l
+vector216	kernel.asm	/^vector216:$/;"	l
+vector217	kernel.asm	/^vector217:$/;"	l
+vector218	kernel.asm	/^vector218:$/;"	l
+vector219	kernel.asm	/^vector219:$/;"	l
+vector22	kernel.asm	/^vector22:$/;"	l
+vector220	kernel.asm	/^vector220:$/;"	l
+vector221	kernel.asm	/^vector221:$/;"	l
+vector222	kernel.asm	/^vector222:$/;"	l
+vector223	kernel.asm	/^vector223:$/;"	l
+vector224	kernel.asm	/^vector224:$/;"	l
+vector225	kernel.asm	/^vector225:$/;"	l
+vector226	kernel.asm	/^vector226:$/;"	l
+vector227	kernel.asm	/^vector227:$/;"	l
+vector228	kernel.asm	/^vector228:$/;"	l
+vector229	kernel.asm	/^vector229:$/;"	l
+vector23	kernel.asm	/^vector23:$/;"	l
+vector230	kernel.asm	/^vector230:$/;"	l
+vector231	kernel.asm	/^vector231:$/;"	l
+vector232	kernel.asm	/^vector232:$/;"	l
+vector233	kernel.asm	/^vector233:$/;"	l
+vector234	kernel.asm	/^vector234:$/;"	l
+vector235	kernel.asm	/^vector235:$/;"	l
+vector236	kernel.asm	/^vector236:$/;"	l
+vector237	kernel.asm	/^vector237:$/;"	l
+vector238	kernel.asm	/^vector238:$/;"	l
+vector239	kernel.asm	/^vector239:$/;"	l
+vector24	kernel.asm	/^vector24:$/;"	l
+vector240	kernel.asm	/^vector240:$/;"	l
+vector241	kernel.asm	/^vector241:$/;"	l
+vector242	kernel.asm	/^vector242:$/;"	l
+vector243	kernel.asm	/^vector243:$/;"	l
+vector244	kernel.asm	/^vector244:$/;"	l
+vector245	kernel.asm	/^vector245:$/;"	l
+vector246	kernel.asm	/^vector246:$/;"	l
+vector247	kernel.asm	/^vector247:$/;"	l
+vector248	kernel.asm	/^vector248:$/;"	l
+vector249	kernel.asm	/^vector249:$/;"	l
+vector25	kernel.asm	/^vector25:$/;"	l
+vector250	kernel.asm	/^vector250:$/;"	l
+vector251	kernel.asm	/^vector251:$/;"	l
+vector252	kernel.asm	/^vector252:$/;"	l
+vector253	kernel.asm	/^vector253:$/;"	l
+vector254	kernel.asm	/^vector254:$/;"	l
+vector255	kernel.asm	/^vector255:$/;"	l
+vector26	kernel.asm	/^vector26:$/;"	l
+vector27	kernel.asm	/^vector27:$/;"	l
+vector28	kernel.asm	/^vector28:$/;"	l
+vector29	kernel.asm	/^vector29:$/;"	l
+vector3	kernel.asm	/^vector3:$/;"	l
+vector30	kernel.asm	/^vector30:$/;"	l
+vector31	kernel.asm	/^vector31:$/;"	l
+vector32	kernel.asm	/^vector32:$/;"	l
+vector33	kernel.asm	/^vector33:$/;"	l
+vector34	kernel.asm	/^vector34:$/;"	l
+vector35	kernel.asm	/^vector35:$/;"	l
+vector36	kernel.asm	/^vector36:$/;"	l
+vector37	kernel.asm	/^vector37:$/;"	l
+vector38	kernel.asm	/^vector38:$/;"	l
+vector39	kernel.asm	/^vector39:$/;"	l
+vector4	kernel.asm	/^vector4:$/;"	l
+vector40	kernel.asm	/^vector40:$/;"	l
+vector41	kernel.asm	/^vector41:$/;"	l
+vector42	kernel.asm	/^vector42:$/;"	l
+vector43	kernel.asm	/^vector43:$/;"	l
+vector44	kernel.asm	/^vector44:$/;"	l
+vector45	kernel.asm	/^vector45:$/;"	l
+vector46	kernel.asm	/^vector46:$/;"	l
+vector47	kernel.asm	/^vector47:$/;"	l
+vector48	kernel.asm	/^vector48:$/;"	l
+vector49	kernel.asm	/^vector49:$/;"	l
+vector5	kernel.asm	/^vector5:$/;"	l
+vector50	kernel.asm	/^vector50:$/;"	l
+vector51	kernel.asm	/^vector51:$/;"	l
+vector52	kernel.asm	/^vector52:$/;"	l
+vector53	kernel.asm	/^vector53:$/;"	l
+vector54	kernel.asm	/^vector54:$/;"	l
+vector55	kernel.asm	/^vector55:$/;"	l
+vector56	kernel.asm	/^vector56:$/;"	l
+vector57	kernel.asm	/^vector57:$/;"	l
+vector58	kernel.asm	/^vector58:$/;"	l
+vector59	kernel.asm	/^vector59:$/;"	l
+vector6	kernel.asm	/^vector6:$/;"	l
+vector60	kernel.asm	/^vector60:$/;"	l
+vector61	kernel.asm	/^vector61:$/;"	l
+vector62	kernel.asm	/^vector62:$/;"	l
+vector63	kernel.asm	/^vector63:$/;"	l
+vector64	kernel.asm	/^vector64:$/;"	l
+vector65	kernel.asm	/^vector65:$/;"	l
+vector66	kernel.asm	/^vector66:$/;"	l
+vector67	kernel.asm	/^vector67:$/;"	l
+vector68	kernel.asm	/^vector68:$/;"	l
+vector69	kernel.asm	/^vector69:$/;"	l
+vector7	kernel.asm	/^vector7:$/;"	l
+vector70	kernel.asm	/^vector70:$/;"	l
+vector71	kernel.asm	/^vector71:$/;"	l
+vector72	kernel.asm	/^vector72:$/;"	l
+vector73	kernel.asm	/^vector73:$/;"	l
+vector74	kernel.asm	/^vector74:$/;"	l
+vector75	kernel.asm	/^vector75:$/;"	l
+vector76	kernel.asm	/^vector76:$/;"	l
+vector77	kernel.asm	/^vector77:$/;"	l
+vector78	kernel.asm	/^vector78:$/;"	l
+vector79	kernel.asm	/^vector79:$/;"	l
+vector8	kernel.asm	/^vector8:$/;"	l
+vector80	kernel.asm	/^vector80:$/;"	l
+vector81	kernel.asm	/^vector81:$/;"	l
+vector82	kernel.asm	/^vector82:$/;"	l
+vector83	kernel.asm	/^vector83:$/;"	l
+vector84	kernel.asm	/^vector84:$/;"	l
+vector85	kernel.asm	/^vector85:$/;"	l
+vector86	kernel.asm	/^vector86:$/;"	l
+vector87	kernel.asm	/^vector87:$/;"	l
+vector88	kernel.asm	/^vector88:$/;"	l
+vector89	kernel.asm	/^vector89:$/;"	l
+vector9	kernel.asm	/^vector9:$/;"	l
+vector90	kernel.asm	/^vector90:$/;"	l
+vector91	kernel.asm	/^vector91:$/;"	l
+vector92	kernel.asm	/^vector92:$/;"	l
+vector93	kernel.asm	/^vector93:$/;"	l
+vector94	kernel.asm	/^vector94:$/;"	l
+vector95	kernel.asm	/^vector95:$/;"	l
+vector96	kernel.asm	/^vector96:$/;"	l
+vector97	kernel.asm	/^vector97:$/;"	l
+vector98	kernel.asm	/^vector98:$/;"	l
+vector99	kernel.asm	/^vector99:$/;"	l
+version	elf.h	/^  uint version;$/;"	m	struct:elfhdr
+virt	vm.c	/^  void *virt;  \/\/虚拟地址$/;"	m	struct:kmap	file:
+void	boot.asm	/^void readseg(uchar*, uint, uint);$/;"	l
+void	boot.asm	/^void$/;"	l
+void	kernel.asm	/^void $/;"	l
+void	kernel.asm	/^void consoleinit(void)$/;"	l
+void	kernel.asm	/^void freerange(void *vstart, void *vend)$/;"	l
+void	kernel.asm	/^void ioapicenable(int irq, int cpunum)$/;"	l
+void	kernel.asm	/^void ioapicinit(void)$/;"	l
+void	kernel.asm	/^void kfree(char *v)$/;"	l
+void	kernel.asm	/^void kinit(void *vstart, void *vend)$/;"	l
+void	kernel.asm	/^void kvmalloc(void)$/;"	l
+void	kernel.asm	/^void seginit(void)$/;"	l
+void	kernel.asm	/^void segshow(){$/;"	l
+void	kernel.asm	/^void switchkvm(void)$/;"	l
+void	kernel.asm	/^void$/;"	l
+w	console.c	/^  uint w;  \/\/ Write index$/;"	m	struct:__anon2	file:
+waitdisk	bootmain.c	/^waitdisk(void)$/;"	f
+walkpgdir	vm.c	/^static pte_t * walkpgdir(pde_t *pgdir, const void *va, int alloc)$/;"	f	file:
+x	kernel.asm	/^    x = -xx;$/;"	d
+x	kernel.asm	/^    x = xx;$/;"	d
+xchg	x86.h	/^xchg(volatile uint *addr, uint newval)$/;"	f

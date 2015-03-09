@@ -1,0 +1,334 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ASFLAGS	Makefile	/^ASFLAGS = -m32 -gdwarf-2 -Wa,-divide$/;"	m
+BACKSPACE	console.c	79;"	d	file:
+BootMessage	bootasm.S	/^BootMessage: .ascii "hello, BLCU OS, My name is ChenPeng"$/;"	l
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -fno-pic -static -fno-builtin -fno-strict-aliasing -Wall -MD -ggdb -m32 -Werror -fno-omit-frame-pointer$/;"	m
+COM1	kernel.asm	/^#define COM1    0x3f8$/;"	d
+COM1	uart.c	6;"	d	file:
+CR0_AM	mmu.h	35;"	d
+CR0_CD	mmu.h	37;"	d
+CR0_EM	mmu.h	30;"	d
+CR0_ET	mmu.h	32;"	d
+CR0_MP	mmu.h	29;"	d
+CR0_NE	mmu.h	33;"	d
+CR0_NW	mmu.h	36;"	d
+CR0_PE	mmu.h	28;"	d
+CR0_PG	mmu.h	38;"	d
+CR0_TS	mmu.h	31;"	d
+CR0_WP	mmu.h	34;"	d
+CR4_PSE	mmu.h	40;"	d
+CRTPORT	console.c	80;"	d	file:
+CRTPORT	kernel.asm	/^#define CRTPORT 0x3d4$/;"	d
+DEVSPACE	memlayout.h	5;"	d
+DPL_USER	mmu.h	79;"	d
+Disassembly	boot.asm	/^Disassembly of section .text:$/;"	l
+Disassembly	kernel.asm	/^Disassembly of section .text:$/;"	l
+ELF_MAGIC	elf.h	3;"	d
+ELF_PROG_FLAG_EXEC	elf.h	40;"	d
+ELF_PROG_FLAG_READ	elf.h	42;"	d
+ELF_PROG_FLAG_WRITE	elf.h	41;"	d
+ELF_PROG_LOAD	elf.h	37;"	d
+EXTMEM	memlayout.h	3;"	d
+FL_AC	mmu.h	22;"	d
+FL_AF	mmu.h	7;"	d
+FL_CF	mmu.h	5;"	d
+FL_DF	mmu.h	12;"	d
+FL_ID	mmu.h	25;"	d
+FL_IF	mmu.h	11;"	d
+FL_IOPL_0	mmu.h	15;"	d
+FL_IOPL_1	mmu.h	16;"	d
+FL_IOPL_2	mmu.h	17;"	d
+FL_IOPL_3	mmu.h	18;"	d
+FL_IOPL_MASK	mmu.h	14;"	d
+FL_NT	mmu.h	19;"	d
+FL_OF	mmu.h	13;"	d
+FL_PF	mmu.h	6;"	d
+FL_RF	mmu.h	20;"	d
+FL_SF	mmu.h	9;"	d
+FL_TF	mmu.h	10;"	d
+FL_VIF	mmu.h	23;"	d
+FL_VIP	mmu.h	24;"	d
+FL_VM	mmu.h	21;"	d
+FL_ZF	mmu.h	8;"	d
+KERNBASE	memlayout.h	8;"	d
+KERNLINK	memlayout.h	9;"	d
+KSTACKSIZE	param.h	2;"	d
+LD	Makefile	/^LD = ld$/;"	m
+LDFILE	Makefile	/^LDFILE = boot.ld$/;"	m
+LOGSIZE	param.h	11;"	d
+MAXARG	param.h	10;"	d
+NBUF	param.h	6;"	d
+NCPU	param.h	3;"	d
+NDEV	param.h	8;"	d
+NELEM	defs.h	184;"	d
+NFILE	param.h	5;"	d
+NINODE	param.h	7;"	d
+NOFILE	param.h	4;"	d
+NPDENTRIES	mmu.h	121;"	d
+NPROC	param.h	1;"	d
+NPTENTRIES	mmu.h	122;"	d
+OBJCOPY	Makefile	/^OBJCOPY = objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJS	Makefile	/^OBJS = \\$/;"	m
+P2V	memlayout.h	19;"	d
+P2V_WO	memlayout.h	22;"	d
+PDX	mmu.h	112;"	d
+PDXSHIFT	mmu.h	127;"	d
+PGADDR	mmu.h	118;"	d
+PGROUNDDOWN	mmu.h	130;"	d
+PGROUNDUP	mmu.h	129;"	d
+PGSHIFT	mmu.h	125;"	d
+PGSIZE	mmu.h	123;"	d
+PHYSTOP	memlayout.h	4;"	d
+PTE_A	mmu.h	138;"	d
+PTE_ADDR	mmu.h	144;"	d
+PTE_D	mmu.h	139;"	d
+PTE_FLAGS	mmu.h	145;"	d
+PTE_MBZ	mmu.h	141;"	d
+PTE_P	mmu.h	133;"	d
+PTE_PCD	mmu.h	137;"	d
+PTE_PS	mmu.h	140;"	d
+PTE_PWT	mmu.h	136;"	d
+PTE_U	mmu.h	135;"	d
+PTE_W	mmu.h	134;"	d
+PTX	mmu.h	115;"	d
+PTXSHIFT	mmu.h	126;"	d
+QEMU	Makefile	/^QEMU = qemu$/;"	m
+ROOTDEV	param.h	9;"	d
+SECTSIZE	bootmain.c	14;"	d	file:
+SEG	mmu.h	69;"	d
+SEG16	mmu.h	73;"	d
+SEG_ASM	asm.h	11;"	d
+SEG_KCODE	mmu.h	42;"	d
+SEG_KCPU	mmu.h	44;"	d
+SEG_KDATA	mmu.h	43;"	d
+SEG_NULLASM	asm.h	5;"	d
+SEG_TSS	mmu.h	47;"	d
+SEG_UCODE	mmu.h	45;"	d
+SEG_UDATA	mmu.h	46;"	d
+SETGATE	mmu.h	213;"	d
+STA_A	asm.h	21;"	d
+STA_A	mmu.h	87;"	d
+STA_C	asm.h	18;"	d
+STA_C	mmu.h	84;"	d
+STA_E	asm.h	17;"	d
+STA_E	mmu.h	83;"	d
+STA_R	asm.h	20;"	d
+STA_R	mmu.h	86;"	d
+STA_W	asm.h	19;"	d
+STA_W	mmu.h	85;"	d
+STA_X	asm.h	16;"	d
+STA_X	mmu.h	82;"	d
+STS_CG16	mmu.h	93;"	d
+STS_CG32	mmu.h	99;"	d
+STS_IG16	mmu.h	95;"	d
+STS_IG32	mmu.h	100;"	d
+STS_LDT	mmu.h	91;"	d
+STS_T16A	mmu.h	90;"	d
+STS_T16B	mmu.h	92;"	d
+STS_T32A	mmu.h	97;"	d
+STS_T32B	mmu.h	98;"	d
+STS_TG	mmu.h	94;"	d
+STS_TG16	mmu.h	96;"	d
+STS_TG32	mmu.h	101;"	d
+TERMINAL	Makefile	/^TERMINAL        :=gnome-terminal$/;"	m
+V2P	memlayout.h	18;"	d
+V2P_WO	memlayout.h	21;"	d
+_start	entry.S	/^_start = V2P_WO(entry)$/;"	d
+align	elf.h	/^  uint align;$/;"	m	struct:proghdr
+argp	kernel.asm	/^  argp = (uint*)(void*)(&fmt + 1);$/;"	d
+args	mmu.h	/^  uint args : 5;        \/\/ # args, 0 for interrupt\/trap gates$/;"	m	struct:gatedesc
+avl	mmu.h	/^  uint avl : 1;        \/\/ Unused (available for software use)$/;"	m	struct:segdesc
+base_15_0	mmu.h	/^  uint base_15_0 : 16; \/\/ Low bits of segment base address$/;"	m	struct:segdesc
+base_23_16	mmu.h	/^  uint base_23_16 : 8; \/\/ Middle bits of segment base address$/;"	m	struct:segdesc
+base_31_24	mmu.h	/^  uint base_31_24 : 8; \/\/ High bits of segment base address$/;"	m	struct:segdesc
+bootmain	bootmain.c	/^bootmain(void)$/;"	f
+c	kernel.asm	/^    c = fmt[++i] & 0xff;$/;"	d
+cgaputc	console.c	/^cgaputc(int c)$/;"	f	file:
+cli	x86.h	/^cli(void)$/;"	f
+consputc	console.c	/^consputc(int c)$/;"	f
+cprintf	console.c	/^cprintf(char *fmt, ...)$/;"	f
+cr3	mmu.h	/^  void *cr3;         \/\/ Page directory base$/;"	m	struct:taskstate
+crt	console.c	/^static ushort *crt = (ushort*)P2V(0xb8000);  \/\/ CGA memory$/;"	v	file:
+cs	mmu.h	/^  uint cs : 16;         \/\/ code segment selector$/;"	m	struct:gatedesc
+cs	mmu.h	/^  ushort cs;$/;"	m	struct:taskstate
+cs	x86.h	/^  ushort cs;$/;"	m	struct:trapframe
+db	mmu.h	/^  uint db : 1;         \/\/ 0 = 16-bit segment, 1 = 32-bit segment$/;"	m	struct:segdesc
+default	kernel.asm	/^    default:$/;"	l
+dpl	mmu.h	/^  uint dpl : 2;         \/\/ descriptor(meaning new) privilege level$/;"	m	struct:gatedesc
+dpl	mmu.h	/^  uint dpl : 2;        \/\/ Descriptor Privilege Level$/;"	m	struct:segdesc
+ds	mmu.h	/^  ushort ds;$/;"	m	struct:taskstate
+ds	x86.h	/^  ushort ds;$/;"	m	struct:trapframe
+eax	mmu.h	/^  uint eax;          \/\/ More saved state (registers)$/;"	m	struct:taskstate
+eax	x86.h	/^  uint eax;$/;"	m	struct:trapframe
+ebp	mmu.h	/^  uint *ebp;$/;"	m	struct:taskstate
+ebp	x86.h	/^  uint ebp;$/;"	m	struct:trapframe
+ebx	mmu.h	/^  uint ebx;$/;"	m	struct:taskstate
+ebx	x86.h	/^  uint ebx;$/;"	m	struct:trapframe
+ecx	mmu.h	/^  uint ecx;$/;"	m	struct:taskstate
+ecx	x86.h	/^  uint ecx;$/;"	m	struct:trapframe
+edi	mmu.h	/^  uint edi;$/;"	m	struct:taskstate
+edi	x86.h	/^  uint edi;$/;"	m	struct:trapframe
+edx	mmu.h	/^  uint edx;$/;"	m	struct:taskstate
+edx	x86.h	/^  uint edx;$/;"	m	struct:trapframe
+eflags	mmu.h	/^  uint eflags;$/;"	m	struct:taskstate
+eflags	x86.h	/^  uint eflags;$/;"	m	struct:trapframe
+ehsize	elf.h	/^  ushort ehsize;$/;"	m	struct:elfhdr
+eip	mmu.h	/^  uint *eip;         \/\/ Saved state from last task switch$/;"	m	struct:taskstate
+eip	x86.h	/^  uint eip;$/;"	m	struct:trapframe
+elf	boot.asm	/^  elf = (struct elfhdr*)0x10000;  \/\/ scratch space 暂存空间$/;"	d
+elf	elf.h	/^  uchar elf[12];$/;"	m	struct:elfhdr
+elfhdr	elf.h	/^struct elfhdr {$/;"	s
+entry	boot.asm	/^  entry = (void(*)(void))(elf->entry);$/;"	d
+entry	elf.h	/^  uint entry;$/;"	m	struct:elfhdr
+entry	entry.S	/^entry:$/;"	l
+entry	kernel.asm	/^entry:$/;"	l
+entrypgdir	main.c	/^ pde_t entrypgdir[];  \/\/ For entry.S$/;"	v
+entrypgdir	main.c	/^pde_t entrypgdir[NPDENTRIES] = {$/;"	v
+epa	boot.asm	/^  epa = pa + count;$/;"	d
+eph	boot.asm	/^  eph = ph + elf->phnum;			\/\/根据elf中的值来设置ph和eph$/;"	d
+err	x86.h	/^  uint err;$/;"	m	struct:trapframe
+es	mmu.h	/^  ushort es;         \/\/ Even more saved state (segment selectors)$/;"	m	struct:taskstate
+es	x86.h	/^  ushort es;$/;"	m	struct:trapframe
+esi	mmu.h	/^  uint esi;$/;"	m	struct:taskstate
+esi	x86.h	/^  uint esi;$/;"	m	struct:trapframe
+esp	mmu.h	/^  uint *esp;$/;"	m	struct:taskstate
+esp	x86.h	/^  uint esp;$/;"	m	struct:trapframe
+esp0	mmu.h	/^  uint esp0;         \/\/ Stack pointers and segment selectors$/;"	m	struct:taskstate
+esp1	mmu.h	/^  uint *esp1;$/;"	m	struct:taskstate
+esp2	mmu.h	/^  uint *esp2;$/;"	m	struct:taskstate
+extern	kernel.asm	/^extern char end[]; \/\/ first address after kernel loaded from ELF file$/;"	l
+extern	kernel.asm	/^extern pde_t *kpgdir;$/;"	l
+f	Makefile	/^	dd if=\/dev\/zero of=os.img count=10000$/;"	m
+f	Makefile	/^	dd if=bootblock of=os.img conv=notrunc    	$/;"	m
+f	Makefile	/^	dd if=kernel of=os.img seek=1 conv=notrunc	$/;"	m
+filesz	elf.h	/^  uint filesz;$/;"	m	struct:proghdr
+flags	elf.h	/^  uint flags;$/;"	m	struct:elfhdr
+flags	elf.h	/^  uint flags;$/;"	m	struct:proghdr
+fs	mmu.h	/^  ushort fs;$/;"	m	struct:taskstate
+fs	x86.h	/^  ushort fs;$/;"	m	struct:trapframe
+g	mmu.h	/^  uint g : 1;          \/\/ Granularity: limit scaled by 4K when set$/;"	m	struct:segdesc
+gatedesc	mmu.h	/^struct gatedesc {$/;"	s
+gdt	bootasm.S	/^gdt:$/;"	l
+gdtdesc	bootasm.S	/^gdtdesc:				  #此为段描述符表的地址$/;"	l
+gs	mmu.h	/^  ushort gs;$/;"	m	struct:taskstate
+gs	x86.h	/^  ushort gs;$/;"	m	struct:trapframe
+i	kernel.asm	/^  i = 0;$/;"	d
+inb	x86.h	/^inb(ushort port)$/;"	f
+insl	x86.h	/^insl(int port, void *addr, int cnt)$/;"	f
+int	kernel.asm	/^int$/;"	l
+iomb	mmu.h	/^  ushort iomb;       \/\/ I\/O map base address$/;"	m	struct:taskstate
+kernel	kernel.asm	/^kernel:     file format elf32-i386$/;"	l
+lcr3	x86.h	/^lcr3(uint val) $/;"	f
+ldt	mmu.h	/^  ushort ldt;$/;"	m	struct:taskstate
+lgdt	x86.h	/^lgdt(struct segdesc *p, int size)$/;"	f
+lidt	x86.h	/^lidt(struct gatedesc *p, int size)$/;"	f
+lim_15_0	mmu.h	/^  uint lim_15_0 : 16;  \/\/ Low bits of segment limit$/;"	m	struct:segdesc
+lim_19_16	mmu.h	/^  uint lim_19_16 : 4;  \/\/ High bits of segment limit$/;"	m	struct:segdesc
+link	mmu.h	/^  uint link;         \/\/ Old ts selector$/;"	m	struct:taskstate
+loadgs	x86.h	/^loadgs(ushort v)$/;"	f
+ltr	x86.h	/^ltr(ushort sel)$/;"	f
+machine	elf.h	/^  ushort machine;$/;"	m	struct:elfhdr
+magic	elf.h	/^  uint magic;  \/\/ must equal ELF_MAGIC$/;"	m	struct:elfhdr
+main	main.c	/^main(void)$/;"	f
+memsz	elf.h	/^  uint memsz;$/;"	m	struct:proghdr
+multiboot_header	entry.S	/^multiboot_header:$/;"	l
+oesp	x86.h	/^  uint oesp;      \/\/ useless & ignored$/;"	m	struct:trapframe
+off	elf.h	/^  uint off;$/;"	m	struct:proghdr
+off_15_0	mmu.h	/^  uint off_15_0 : 16;   \/\/ low 16 bits of offset in segment$/;"	m	struct:gatedesc
+off_31_16	mmu.h	/^  uint off_31_16 : 16;  \/\/ high bits of offset in segment$/;"	m	struct:gatedesc
+offset	boot.asm	/^  offset = (offset \/ SECTSIZE) + 1;$/;"	d
+outb	x86.h	/^outb(ushort port, uchar data)$/;"	f
+outsl	x86.h	/^outsl(int port, const void *addr, int cnt)$/;"	f
+outw	x86.h	/^outw(ushort port, ushort data)$/;"	f
+p	mmu.h	/^  uint p : 1;           \/\/ Present$/;"	m	struct:gatedesc
+p	mmu.h	/^  uint p : 1;          \/\/ Present$/;"	m	struct:segdesc
+p2v	memlayout.h	/^static inline void *p2v(uint a) { return (void *) ((a) + KERNBASE); }$/;"	f
+pa	boot.asm	/^    pa = (uchar*)ph->paddr;			\/\/pa为ph的虚拟地址$/;"	d
+padding1	mmu.h	/^  ushort padding1;$/;"	m	struct:taskstate
+padding1	x86.h	/^  ushort padding1;$/;"	m	struct:trapframe
+padding10	mmu.h	/^  ushort padding10;$/;"	m	struct:taskstate
+padding2	mmu.h	/^  ushort padding2;$/;"	m	struct:taskstate
+padding2	x86.h	/^  ushort padding2;$/;"	m	struct:trapframe
+padding3	mmu.h	/^  ushort padding3;$/;"	m	struct:taskstate
+padding3	x86.h	/^  ushort padding3;$/;"	m	struct:trapframe
+padding4	mmu.h	/^  ushort padding4;$/;"	m	struct:taskstate
+padding4	x86.h	/^  ushort padding4;$/;"	m	struct:trapframe
+padding5	mmu.h	/^  ushort padding5;$/;"	m	struct:taskstate
+padding5	x86.h	/^  ushort padding5;$/;"	m	struct:trapframe
+padding6	mmu.h	/^  ushort padding6;$/;"	m	struct:taskstate
+padding6	x86.h	/^  ushort padding6;$/;"	m	struct:trapframe
+padding7	mmu.h	/^  ushort padding7;$/;"	m	struct:taskstate
+padding8	mmu.h	/^  ushort padding8;$/;"	m	struct:taskstate
+padding9	mmu.h	/^  ushort padding9;$/;"	m	struct:taskstate
+paddr	elf.h	/^  uint paddr;$/;"	m	struct:proghdr
+pde_t	types.h	/^typedef uint pde_t;$/;"	t
+ph	boot.asm	/^  ph = (struct proghdr*)((uchar*)elf + elf->phoff);$/;"	d
+phentsize	elf.h	/^  ushort phentsize;$/;"	m	struct:elfhdr
+phnum	elf.h	/^  ushort phnum;$/;"	m	struct:elfhdr
+phoff	elf.h	/^  uint phoff;$/;"	m	struct:elfhdr
+pos	kernel.asm	/^  pos = inb(CRTPORT+1) << 8;$/;"	d
+printint	console.c	/^printint(int xx, int base, int sign)$/;"	f	file:
+proghdr	elf.h	/^struct proghdr {$/;"	s
+pte_t	mmu.h	/^typedef uint pte_t;$/;"	t
+rcr2	x86.h	/^rcr2(void)$/;"	f
+readeflags	x86.h	/^readeflags(void)$/;"	f
+readsect	bootmain.c	/^readsect(void *dst, uint offset)$/;"	f
+readseg	bootmain.c	/^readseg(uchar* pa, uint count, uint offset)$/;"	f
+rsv1	mmu.h	/^  uint rsv1 : 1;       \/\/ Reserved$/;"	m	struct:segdesc
+rsv1	mmu.h	/^  uint rsv1 : 3;        \/\/ reserved(should be zero I guess)$/;"	m	struct:gatedesc
+s	kernel.asm	/^        s = "(null)";$/;"	d
+s	mmu.h	/^  uint s : 1;           \/\/ must be 0 (system)$/;"	m	struct:gatedesc
+s	mmu.h	/^  uint s : 1;          \/\/ 0 = system, 1 = application$/;"	m	struct:segdesc
+segdesc	mmu.h	/^struct segdesc {$/;"	s
+shentsize	elf.h	/^  ushort shentsize;$/;"	m	struct:elfhdr
+shnum	elf.h	/^  ushort shnum;$/;"	m	struct:elfhdr
+shoff	elf.h	/^  uint shoff;$/;"	m	struct:elfhdr
+shstrndx	elf.h	/^  ushort shstrndx;$/;"	m	struct:elfhdr
+ss	mmu.h	/^  ushort ss;$/;"	m	struct:taskstate
+ss	x86.h	/^  ushort ss;$/;"	m	struct:trapframe
+ss0	mmu.h	/^  ushort ss0;        \/\/   after an increase in privilege level$/;"	m	struct:taskstate
+ss1	mmu.h	/^  ushort ss1;$/;"	m	struct:taskstate
+ss2	mmu.h	/^  ushort ss2;$/;"	m	struct:taskstate
+start	boot.asm	/^start:$/;"	l
+start	bootasm.S	/^start:$/;"	l
+start32	boot.asm	/^start32:$/;"	l
+start32	bootasm.S	/^start32:$/;"	l
+static	boot.asm	/^static inline uchar$/;"	l
+static	boot.asm	/^static inline void$/;"	l
+static	kernel.asm	/^static inline uchar$/;"	l
+static	kernel.asm	/^static inline void$/;"	l
+static	kernel.asm	/^static ushort *crt = (ushort*)P2V(0xb8000);  \/\/ CGA memory$/;"	l
+static	kernel.asm	/^static void consputc(int);$/;"	l
+static	kernel.asm	/^static void$/;"	l
+sti	x86.h	/^sti(void)$/;"	f
+stosb	x86.h	/^stosb(void *addr, int data, int cnt)$/;"	f
+stosl	x86.h	/^stosl(void *addr, int data, int cnt)$/;"	f
+t	mmu.h	/^  ushort t;          \/\/ Trap on task switch$/;"	m	struct:taskstate
+taskstate	mmu.h	/^struct taskstate {$/;"	s
+trapframe	x86.h	/^struct trapframe {$/;"	s
+trapno	x86.h	/^  uint trapno;$/;"	m	struct:trapframe
+type	elf.h	/^  uint type;$/;"	m	struct:proghdr
+type	elf.h	/^  ushort type;$/;"	m	struct:elfhdr
+type	mmu.h	/^  uint type : 4;        \/\/ type(STS_{TG,IG32,TG32})$/;"	m	struct:gatedesc
+type	mmu.h	/^  uint type : 4;       \/\/ Segment type (see STS_ constants)$/;"	m	struct:segdesc
+uartputc	uart.c	/^uartputc(int c)$/;"	f
+uchar	types.h	/^typedef unsigned char  uchar;$/;"	t
+uint	types.h	/^typedef unsigned int   uint;$/;"	t
+ushort	types.h	/^typedef unsigned short ushort;$/;"	t
+v2p	memlayout.h	/^static inline uint v2p(void *a) { return ((uint) (a))  - KERNBASE; }$/;"	f
+vaddr	elf.h	/^  uint vaddr;$/;"	m	struct:proghdr
+version	elf.h	/^  uint version;$/;"	m	struct:elfhdr
+void	boot.asm	/^void readseg(uchar*, uint, uint);$/;"	l
+void	boot.asm	/^void$/;"	l
+void	kernel.asm	/^void$/;"	l
+waitdisk	bootmain.c	/^waitdisk(void)$/;"	f
+x	kernel.asm	/^    x = -xx;$/;"	d
+x	kernel.asm	/^    x = xx;$/;"	d
+xchg	x86.h	/^xchg(volatile uint *addr, uint newval)$/;"	f
